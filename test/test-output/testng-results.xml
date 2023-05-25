@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T12:18:29 IST" name="Suite" finished-at="2023-05-25T12:19:15 IST" duration-ms="46658">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T12:18:29 IST" name="Test" finished-at="2023-05-25T12:19:15 IST" duration-ms="46658">
+      <class name="PriceReco.PriceReco">
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:18:41 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:18:43 IST" duration-ms="2322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GRAND LUXURY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TU : INNOVA CRYSTA 2.8 Z]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2017.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[37202.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[WHITE PEARL CRYSTAL SHINE]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Comprehensive]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1961898.3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:18:43 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:18:45 IST" duration-ms="2233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GRAND LUXURY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TD : INNOVA CRYSTA 2.4 V]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2016.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[150238.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GREY METALLIC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Comprehensive]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1494051.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:18:45 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:18:47 IST" duration-ms="2151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indigo Manza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aqua- Quadrajet]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[W0836 : Aqua Quadrajet]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2010.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[104341.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Cherry Red]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Expired]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[150000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:18:47 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:18:50 IST" duration-ms="2311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahindra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XUV500]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[W8 4X2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[I0530 : W8 4X2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2013.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[98658.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Dolphin Grey]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Expired]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[U Trust Facility(Walk in)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[712305.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:18:50 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:18:52 IST" duration-ms="2088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sDrive20d]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[B1202 : sDrive20d]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2018.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17735.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Black]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Comprehensive]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2900000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:18:52 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:18:54 IST" duration-ms="2141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyundai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.2- Asta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y0510 : 1.2 Asta]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2017.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[27930.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Coral White]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Expired]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PETROL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[692451.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:18:54 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:18:56 IST" duration-ms="1938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maruti Suzuki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vitara Brezza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VXI]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M1288 : MPI]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2020.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20144.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Artic White]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Comprehensive]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[823000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:18:56 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:18:58 IST" duration-ms="2164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maruti Suzuki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ciaz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Petrol]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M125H : Smart Hybrid Sigma]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2019.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[26771.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Glistening Grey]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Expired]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PETROL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[790000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:18:58 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:19:01 IST" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GRAND LUXURY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XG : INNOVA CRYSTA 2.4 Z (AT)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2021.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10527.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[SPARKLING BLACK PEARL CS]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Expired]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2436835.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:19:01 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:19:03 IST" duration-ms="2738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DELUXE 2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TF : INNOVA CRYSTA 2.8 G]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2016.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[76049.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[AVANT GARDE BRONZE]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Expired]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1538648.9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+        <test-method signature="getcarprice(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.Double)[pri:0, instance:PriceReco.PriceReco@36a5cabc]" started-at="2023-05-25T12:19:03 IST" name="getcarprice" data-provider="carsData" finished-at="2023-05-25T12:19:06 IST" duration-ms="2441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[City]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SV]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HO29 : SV MT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2010.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[63047.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Signet Silver]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Comprehensive]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Retail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PETROL]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[295000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcarprice -->
+      </class> <!-- PriceReco.PriceReco -->
+      <class name="LeadScore.LeadScoreSales">
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:29 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:32 IST" duration-ms="2593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GRAND LUXURY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TU : INNOVA CRYSTA 2.8 Z]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2017.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[97.22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:32 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:33 IST" duration-ms="825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GRAND LUXURY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TD : INNOVA CRYSTA 2.4 V]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2016.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[33.03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:33 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:34 IST" duration-ms="924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indigo Manza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aqua- Quadrajet]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[W0836 : Aqua Quadrajet]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2010.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:34 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:34 IST" duration-ms="809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahindra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XUV500]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[W8 4X2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[I0530 : W8 4X2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2013.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[U Trust Facility(Walk in)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[98.42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:34 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:35 IST" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sDrive20d]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[B1202 : sDrive20d]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2018.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[96.41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:35 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:36 IST" duration-ms="825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyundai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.2- Asta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y0510 : 1.2 Asta]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2017.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[81.82]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:36 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:37 IST" duration-ms="909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maruti Suzuki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vitara Brezza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VXI]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M1288 : MPI]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2020.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:37 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:38 IST" duration-ms="918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maruti Suzuki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ciaz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Petrol]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M125H : Smart Hybrid Sigma]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2019.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:38 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:39 IST" duration-ms="941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GRAND LUXURY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XG : INNOVA CRYSTA 2.4 Z (AT)]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2021.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[82.98]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:39 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:40 IST" duration-ms="818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DELUXE 2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TF : INNOVA CRYSTA 2.8 G]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2016.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[30.77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+        <test-method signature="getsalesprobscore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScoreSales@4b213651]" started-at="2023-05-25T12:18:40 IST" name="getsalesprobscore" data-provider="carsData" finished-at="2023-05-25T12:18:41 IST" duration-ms="901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[City]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SV]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HO29 : SV MT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2010.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[88.97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsalesprobscore -->
+      </class> <!-- LeadScore.LeadScoreSales -->
+      <class name="LeadScore.LeadScorePurchase">
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:06 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:07 IST" duration-ms="959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2017.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15.86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:07 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:08 IST" duration-ms="809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2016.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15.18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:08 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:09 IST" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indigo Manza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2010.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:09 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:09 IST" duration-ms="813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahindra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XUV500]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2013.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[U Trust Facility(Walk in)]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[76.96]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:09 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:10 IST" duration-ms="911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2018.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[88.37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:10 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:11 IST" duration-ms="817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyundai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2017.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PETROL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[86.62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:11 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:12 IST" duration-ms="818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maruti Suzuki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vitara Brezza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2020.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[77.92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:12 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:13 IST" duration-ms="912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maruti Suzuki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ciaz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PETROL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[94.01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:13 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:14 IST" duration-ms="809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2021.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Other Business Associates]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80.71]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:14 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:14 IST" duration-ms="819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INNOVA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2016.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DIESEL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15.18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+        <test-method signature="getpurchaseprobscore(java.lang.String,java.lang.String,double,java.lang.String,java.lang.String,java.lang.Double)[pri:0, instance:LeadScore.LeadScorePurchase@432038ec]" started-at="2023-05-25T12:19:14 IST" name="getpurchaseprobscore" data-provider="carsData" finished-at="2023-05-25T12:19:15 IST" duration-ms="818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[City]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2010.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PETROL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New Car Showroom]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[26.58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpurchaseprobscore -->
+      </class> <!-- LeadScore.LeadScorePurchase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Administrator\eclipse-workspace\Dioxie_Project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, 76049.0, 1.0, AVANT GARDE BRONZE, Expire...)">getcarprice(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, 76049.0, 1.0, AVANT GARDE BRONZE, Expire...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, 37202.0, 1.0, WHITE PEARL CRYSTAL SH...)">getcarprice(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, 37202.0, 1.0, WHITE PEARL CRYSTAL SH...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, 17735.0, 1.0, Black, Comprehensive, Other Business As...)">getcarprice(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, 17735.0, 1.0, Black, Comprehensive, Other Business As...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, 10527.0, 1.0, SPARKLING BLACK P...)">getcarprice(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, 10527.0, 1.0, SPARKLING BLACK P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, 104341.0, 1.0, Cherry Red, Expi...)">getcarprice(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, 104341.0, 1.0, Cherry Red, Expi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, 98658.0, 2.0, Dolphin Grey, Expired, U Trust Facil...)">getcarprice(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, 98658.0, 2.0, Dolphin Grey, Expired, U Trust Facil...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Honda, City, SV, HO29 : SV MT, 2010.0, 63047.0, 1.0, Signet Silver, Comprehensive, New Car Showroom,...)">getcarprice(Honda, City, SV, HO29 : SV MT, 2010.0, 63047.0, 1.0, Signet Silver, Comprehensive, New Car Showroom,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, 27930.0, 1.0, Coral White, Expired, Other Busine...)">getcarprice(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, 27930.0, 1.0, Coral White, Expired, Other Busine...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, 20144.0, 1.0, Artic White, Comprehensive, Ot...)">getcarprice(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, 20144.0, 1.0, Artic White, Comprehensive, Ot...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, 26771.0, 1.0, Glistening Grey, Expi...)">getcarprice(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, 26771.0, 1.0, Glistening Grey, Expi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PriceReco.PriceReco" class="method navigator-link" hash-for-method="getcarprice(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, 150238.0, 1.0, GREY METALLIC, Compre...)">getcarprice(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, 150238.0, 1.0, GREY METALLIC, Compre...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Toyota, INNOVA, 2017.0, DIESEL, New Car Showroom, 15.86)">getpurchaseprobscore(Toyota, INNOVA, 2017.0, DIESEL, New Car Showroom, 15.86)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18)">getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Maruti Suzuki, Ciaz, 2019.0, PETROL, Other Business Associates, 94.01)">getpurchaseprobscore(Maruti Suzuki, Ciaz, 2019.0, PETROL, Other Business Associates, 94.01)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Toyota, INNOVA, 2021.0, DIESEL, Other Business Associates, 80.71)">getpurchaseprobscore(Toyota, INNOVA, 2021.0, DIESEL, Other Business Associates, 80.71)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Tata, Indigo Manza, 2010.0, DIESEL, New Car Showroom, 100.0)">getpurchaseprobscore(Tata, Indigo Manza, 2010.0, DIESEL, New Car Showroom, 100.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(BMW, X1, 2018.0, DIESEL, Other Business Associates, 88.37)">getpurchaseprobscore(BMW, X1, 2018.0, DIESEL, Other Business Associates, 88.37)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Hyundai, I-20, 2017.0, PETROL, Other Business Associates, 86.62)">getpurchaseprobscore(Hyundai, I-20, 2017.0, PETROL, Other Business Associates, 86.62)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Maruti Suzuki, Vitara Brezza, 2020.0, DIESEL, Other Business Associates, 77.92)">getpurchaseprobscore(Maruti Suzuki, Vitara Brezza, 2020.0, DIESEL, Other Business Associates, 77.92)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Mahindra, XUV500, 2013.0, DIESEL, U Trust Facility(Walk in), 76.96)">getpurchaseprobscore(Mahindra, XUV500, 2013.0, DIESEL, U Trust Facility(Walk in), 76.96)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Honda, City, 2010.0, PETROL, New Car Showroom, 26.58)">getpurchaseprobscore(Honda, City, 2010.0, PETROL, New Car Showroom, 26.58)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScorePurchase" class="method navigator-link" hash-for-method="getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18)">getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, Other Business Associates, No, 100.0)">getsalesprobscore(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, Other Business Associates, No, 100.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, New Car Showroom, Yes, 100.0)">getsalesprobscore(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, New Car Showroom, Yes, 100.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, Other Business Associates, No, ...)">getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, Other Business Associates, No, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Honda, City, SV, HO29 : SV MT, 2010.0, New Car Showroom, Yes, 88.97)">getsalesprobscore(Honda, City, SV, HO29 : SV MT, 2010.0, New Car Showroom, Yes, 88.97)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, U Trust Facility(Walk in), Yes, 98.42)">getsalesprobscore(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, U Trust Facility(Walk in), Yes, 98.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, New Car Showroom, No, 30.77)">getsalesprobscore(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, New Car Showroom, No, 30.77)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, Other Business Associates, No, 81.82)">getsalesprobscore(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, Other Business Associates, No, 81.82)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, Other Business Associates, No, 100....)">getsalesprobscore(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, Other Business Associates, No, 100....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, Other Business Associates, No, 96.41)">getsalesprobscore(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, Other Business Associates, No, 96.41)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, New Car Showroom, Yes, 97.22)">getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, New Car Showroom, Yes, 97.22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LeadScore.LeadScoreSales" class="method navigator-link" hash-for-method="getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, New Car Showroom, No, 33.03)">getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, New Car Showroom, No, 33.03)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PriceReco.PriceReco</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, 76049.0, 1.0, AVANT GARDE BRONZE, Expire...)">
+                  </a> <!-- getcarprice(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, 76049.0, 1.0, AVANT GARDE BRONZE, Expire...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Toyota,INNOVA,DELUXE 2,TF : INNOVA CRYSTA 2.8 G,2016.0,76049.0,1.0,AVANT GARDE BRONZE,Expired,New Car Showroom,Retail,DIESEL,4.0,No,1538648.9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, 37202.0, 1.0, WHITE PEARL CRYSTAL SH...)">
+                  </a> <!-- getcarprice(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, 37202.0, 1.0, WHITE PEARL CRYSTAL SH...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Toyota,INNOVA,GRAND LUXURY,TU : INNOVA CRYSTA 2.8 Z,2017.0,37202.0,1.0,WHITE PEARL CRYSTAL SHINE,Comprehensive,New Car Showroom,Retail,DIESEL,4.0,Yes,1961898.3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, 17735.0, 1.0, Black, Comprehensive, Other Business As...)">
+                  </a> <!-- getcarprice(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, 17735.0, 1.0, Black, Comprehensive, Other Business As...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(BMW,X1,sDrive20d,B1202 : sDrive20d,2018.0,17735.0,1.0,Black,Comprehensive,Other Business Associates,Retail,DIESEL,4.0,No,2900000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, 10527.0, 1.0, SPARKLING BLACK P...)">
+                  </a> <!-- getcarprice(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, 10527.0, 1.0, SPARKLING BLACK P...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Toyota,INNOVA,GRAND LUXURY,XG : INNOVA CRYSTA 2.4 Z (AT),2021.0,10527.0,1.0,SPARKLING BLACK PEARL CS,Expired,Other Business Associates,Retail,DIESEL,4.0,No,2436835.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, 104341.0, 1.0, Cherry Red, Expi...)">
+                  </a> <!-- getcarprice(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, 104341.0, 1.0, Cherry Red, Expi...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Tata,Indigo Manza,Aqua- Quadrajet,W0836 : Aqua Quadrajet,2010.0,104341.0,1.0,Cherry Red,Expired,New Car Showroom,Retail,DIESEL,4.0,Yes,150000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, 98658.0, 2.0, Dolphin Grey, Expired, U Trust Facil...)">
+                  </a> <!-- getcarprice(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, 98658.0, 2.0, Dolphin Grey, Expired, U Trust Facil...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Mahindra,XUV500,W8 4X2,I0530 : W8 4X2,2013.0,98658.0,2.0,Dolphin Grey,Expired,U Trust Facility(Walk in),Retail,DIESEL,4.0,Yes,712305.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Honda, City, SV, HO29 : SV MT, 2010.0, 63047.0, 1.0, Signet Silver, Comprehensive, New Car Showroom,...)">
+                  </a> <!-- getcarprice(Honda, City, SV, HO29 : SV MT, 2010.0, 63047.0, 1.0, Signet Silver, Comprehensive, New Car Showroom,...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Honda,City,SV,HO29 : SV MT,2010.0,63047.0,1.0,Signet Silver,Comprehensive,New Car Showroom,Retail,PETROL,4.0,Yes,295000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, 27930.0, 1.0, Coral White, Expired, Other Busine...)">
+                  </a> <!-- getcarprice(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, 27930.0, 1.0, Coral White, Expired, Other Busine...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Hyundai,I-20,1.2- Asta,Y0510 : 1.2 Asta,2017.0,27930.0,1.0,Coral White,Expired,Other Business Associates,Retail,PETROL,4.0,No,692451.4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, 20144.0, 1.0, Artic White, Comprehensive, Ot...)">
+                  </a> <!-- getcarprice(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, 20144.0, 1.0, Artic White, Comprehensive, Ot...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Maruti Suzuki,Vitara Brezza,VXI,M1288 : MPI,2020.0,20144.0,1.0,Artic White,Comprehensive,Other Business Associates,Retail,DIESEL,4.0,No,823000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, 26771.0, 1.0, Glistening Grey, Expi...)">
+                  </a> <!-- getcarprice(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, 26771.0, 1.0, Glistening Grey, Expi...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Maruti Suzuki,Ciaz,Petrol,M125H : Smart Hybrid Sigma,2019.0,26771.0,1.0,Glistening Grey,Expired,Other Business Associates,Retail,PETROL,4.0,No,790000.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcarprice(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, 150238.0, 1.0, GREY METALLIC, Compre...)">
+                  </a> <!-- getcarprice(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, 150238.0, 1.0, GREY METALLIC, Compre...) -->
+                  <span class="method-name">getcarprice</span>
+                  <span class="parameters">(Toyota,INNOVA,GRAND LUXURY,TD : INNOVA CRYSTA 2.4 V,2016.0,150238.0,1.0,GREY METALLIC,Comprehensive,New Car Showroom,Retail,DIESEL,4.0,No,1494051.5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LeadScore.LeadScorePurchase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Toyota, INNOVA, 2017.0, DIESEL, New Car Showroom, 15.86)">
+                  </a> <!-- getpurchaseprobscore(Toyota, INNOVA, 2017.0, DIESEL, New Car Showroom, 15.86) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Toyota,INNOVA,2017.0,DIESEL,New Car Showroom,15.86)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18)">
+                  </a> <!-- getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Toyota,INNOVA,2016.0,DIESEL,New Car Showroom,15.18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Maruti Suzuki, Ciaz, 2019.0, PETROL, Other Business Associates, 94.01)">
+                  </a> <!-- getpurchaseprobscore(Maruti Suzuki, Ciaz, 2019.0, PETROL, Other Business Associates, 94.01) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Maruti Suzuki,Ciaz,2019.0,PETROL,Other Business Associates,94.01)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Toyota, INNOVA, 2021.0, DIESEL, Other Business Associates, 80.71)">
+                  </a> <!-- getpurchaseprobscore(Toyota, INNOVA, 2021.0, DIESEL, Other Business Associates, 80.71) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Toyota,INNOVA,2021.0,DIESEL,Other Business Associates,80.71)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Tata, Indigo Manza, 2010.0, DIESEL, New Car Showroom, 100.0)">
+                  </a> <!-- getpurchaseprobscore(Tata, Indigo Manza, 2010.0, DIESEL, New Car Showroom, 100.0) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Tata,Indigo Manza,2010.0,DIESEL,New Car Showroom,100.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(BMW, X1, 2018.0, DIESEL, Other Business Associates, 88.37)">
+                  </a> <!-- getpurchaseprobscore(BMW, X1, 2018.0, DIESEL, Other Business Associates, 88.37) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(BMW,X1,2018.0,DIESEL,Other Business Associates,88.37)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Hyundai, I-20, 2017.0, PETROL, Other Business Associates, 86.62)">
+                  </a> <!-- getpurchaseprobscore(Hyundai, I-20, 2017.0, PETROL, Other Business Associates, 86.62) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Hyundai,I-20,2017.0,PETROL,Other Business Associates,86.62)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Maruti Suzuki, Vitara Brezza, 2020.0, DIESEL, Other Business Associates, 77.92)">
+                  </a> <!-- getpurchaseprobscore(Maruti Suzuki, Vitara Brezza, 2020.0, DIESEL, Other Business Associates, 77.92) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Maruti Suzuki,Vitara Brezza,2020.0,DIESEL,Other Business Associates,77.92)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Mahindra, XUV500, 2013.0, DIESEL, U Trust Facility(Walk in), 76.96)">
+                  </a> <!-- getpurchaseprobscore(Mahindra, XUV500, 2013.0, DIESEL, U Trust Facility(Walk in), 76.96) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Mahindra,XUV500,2013.0,DIESEL,U Trust Facility(Walk in),76.96)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Honda, City, 2010.0, PETROL, New Car Showroom, 26.58)">
+                  </a> <!-- getpurchaseprobscore(Honda, City, 2010.0, PETROL, New Car Showroom, 26.58) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Honda,City,2010.0,PETROL,New Car Showroom,26.58)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18)">
+                  </a> <!-- getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18) -->
+                  <span class="method-name">getpurchaseprobscore</span>
+                  <span class="parameters">(Toyota,INNOVA,2016.0,DIESEL,New Car Showroom,15.18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LeadScore.LeadScoreSales</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, Other Business Associates, No, 100.0)">
+                  </a> <!-- getsalesprobscore(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, Other Business Associates, No, 100.0) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Maruti Suzuki,Vitara Brezza,VXI,M1288 : MPI,2020.0,Other Business Associates,No,100.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, New Car Showroom, Yes, 100.0)">
+                  </a> <!-- getsalesprobscore(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, New Car Showroom, Yes, 100.0) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Tata,Indigo Manza,Aqua- Quadrajet,W0836 : Aqua Quadrajet,2010.0,New Car Showroom,Yes,100.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, Other Business Associates, No, ...)">
+                  </a> <!-- getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, Other Business Associates, No, ...) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Toyota,INNOVA,GRAND LUXURY,XG : INNOVA CRYSTA 2.4 Z (AT),2021.0,Other Business Associates,No,82.98)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Honda, City, SV, HO29 : SV MT, 2010.0, New Car Showroom, Yes, 88.97)">
+                  </a> <!-- getsalesprobscore(Honda, City, SV, HO29 : SV MT, 2010.0, New Car Showroom, Yes, 88.97) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Honda,City,SV,HO29 : SV MT,2010.0,New Car Showroom,Yes,88.97)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, U Trust Facility(Walk in), Yes, 98.42)">
+                  </a> <!-- getsalesprobscore(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, U Trust Facility(Walk in), Yes, 98.42) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Mahindra,XUV500,W8 4X2,I0530 : W8 4X2,2013.0,U Trust Facility(Walk in),Yes,98.42)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, New Car Showroom, No, 30.77)">
+                  </a> <!-- getsalesprobscore(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, New Car Showroom, No, 30.77) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Toyota,INNOVA,DELUXE 2,TF : INNOVA CRYSTA 2.8 G,2016.0,New Car Showroom,No,30.77)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, Other Business Associates, No, 81.82)">
+                  </a> <!-- getsalesprobscore(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, Other Business Associates, No, 81.82) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Hyundai,I-20,1.2- Asta,Y0510 : 1.2 Asta,2017.0,Other Business Associates,No,81.82)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, Other Business Associates, No, 100....)">
+                  </a> <!-- getsalesprobscore(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, Other Business Associates, No, 100....) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Maruti Suzuki,Ciaz,Petrol,M125H : Smart Hybrid Sigma,2019.0,Other Business Associates,No,100.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, Other Business Associates, No, 96.41)">
+                  </a> <!-- getsalesprobscore(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, Other Business Associates, No, 96.41) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(BMW,X1,sDrive20d,B1202 : sDrive20d,2018.0,Other Business Associates,No,96.41)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, New Car Showroom, Yes, 97.22)">
+                  </a> <!-- getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, New Car Showroom, Yes, 97.22) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Toyota,INNOVA,GRAND LUXURY,TU : INNOVA CRYSTA 2.8 Z,2017.0,New Car Showroom,Yes,97.22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, New Car Showroom, No, 33.03)">
+                  </a> <!-- getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, New Car Showroom, No, 33.03) -->
+                  <span class="method-name">getsalesprobscore</span>
+                  <span class="parameters">(Toyota,INNOVA,GRAND LUXURY,TD : INNOVA CRYSTA 2.4 V,2016.0,New Car Showroom,No,33.03)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Administrator\eclipse-workspace\Dioxie_Project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;LeadScore.LeadScoreSales&quot;/&gt;
+      &lt;class name=&quot;PriceReco.PriceReco&quot;/&gt;
+      &lt;class name=&quot;LeadScore.LeadScorePurchase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getcarprice')
+data.setCell(0, 2, 'PriceReco.PriceReco')
+data.setCell(0, 3, 2738);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getcarprice')
+data.setCell(1, 2, 'PriceReco.PriceReco')
+data.setCell(1, 3, 2693);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getsalesprobscore')
+data.setCell(2, 2, 'LeadScore.LeadScoreSales')
+data.setCell(2, 3, 2593);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getcarprice')
+data.setCell(3, 2, 'PriceReco.PriceReco')
+data.setCell(3, 3, 2441);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getcarprice')
+data.setCell(4, 2, 'PriceReco.PriceReco')
+data.setCell(4, 3, 2322);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getcarprice')
+data.setCell(5, 2, 'PriceReco.PriceReco')
+data.setCell(5, 3, 2311);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getcarprice')
+data.setCell(6, 2, 'PriceReco.PriceReco')
+data.setCell(6, 3, 2233);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getcarprice')
+data.setCell(7, 2, 'PriceReco.PriceReco')
+data.setCell(7, 3, 2164);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getcarprice')
+data.setCell(8, 2, 'PriceReco.PriceReco')
+data.setCell(8, 3, 2151);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getcarprice')
+data.setCell(9, 2, 'PriceReco.PriceReco')
+data.setCell(9, 3, 2141);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getcarprice')
+data.setCell(10, 2, 'PriceReco.PriceReco')
+data.setCell(10, 3, 2088);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getcarprice')
+data.setCell(11, 2, 'PriceReco.PriceReco')
+data.setCell(11, 3, 1938);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getpurchaseprobscore')
+data.setCell(12, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(12, 3, 959);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getsalesprobscore')
+data.setCell(13, 2, 'LeadScore.LeadScoreSales')
+data.setCell(13, 3, 941);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getsalesprobscore')
+data.setCell(14, 2, 'LeadScore.LeadScoreSales')
+data.setCell(14, 3, 924);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getsalesprobscore')
+data.setCell(15, 2, 'LeadScore.LeadScoreSales')
+data.setCell(15, 3, 918);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getpurchaseprobscore')
+data.setCell(16, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(16, 3, 912);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getpurchaseprobscore')
+data.setCell(17, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(17, 3, 911);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'getsalesprobscore')
+data.setCell(18, 2, 'LeadScore.LeadScoreSales')
+data.setCell(18, 3, 909);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getsalesprobscore')
+data.setCell(19, 2, 'LeadScore.LeadScoreSales')
+data.setCell(19, 3, 901);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getpurchaseprobscore')
+data.setCell(20, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(20, 3, 826);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getsalesprobscore')
+data.setCell(21, 2, 'LeadScore.LeadScoreSales')
+data.setCell(21, 3, 825);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'getsalesprobscore')
+data.setCell(22, 2, 'LeadScore.LeadScoreSales')
+data.setCell(22, 3, 825);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'getsalesprobscore')
+data.setCell(23, 2, 'LeadScore.LeadScoreSales')
+data.setCell(23, 3, 820);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getpurchaseprobscore')
+data.setCell(24, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(24, 3, 819);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'getpurchaseprobscore')
+data.setCell(25, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(25, 3, 818);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getsalesprobscore')
+data.setCell(26, 2, 'LeadScore.LeadScoreSales')
+data.setCell(26, 3, 818);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getpurchaseprobscore')
+data.setCell(27, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(27, 3, 818);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'getpurchaseprobscore')
+data.setCell(28, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(28, 3, 817);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'getpurchaseprobscore')
+data.setCell(29, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(29, 3, 813);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'getpurchaseprobscore')
+data.setCell(30, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(30, 3, 809);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'getpurchaseprobscore')
+data.setCell(31, 2, 'LeadScore.LeadScorePurchase')
+data.setCell(31, 3, 809);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'getsalesprobscore')
+data.setCell(32, 2, 'LeadScore.LeadScoreSales')
+data.setCell(32, 3, 809);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">LeadScore.LeadScoreSales</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, New Car Showroom, Yes, 97.22)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, New Car Showroom, No, 33.03)</span>
+                <span class="method-start">2650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, New Car Showroom, Yes, 100.0)</span>
+                <span class="method-start">3480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, U Trust Facility(Walk in), Yes, 98.42)</span>
+                <span class="method-start">4407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, Other Business Associates, No, 96.41)</span>
+                <span class="method-start">5218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, Other Business Associates, No, 81.82)</span>
+                <span class="method-start">6040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, Other Business Associates, No, 100.0)</span>
+                <span class="method-start">6866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, Other Business Associates, No, 100....)</span>
+                <span class="method-start">7777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, Other Business Associates, No, ...)</span>
+                <span class="method-start">8697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, New Car Showroom, No, 30.77)</span>
+                <span class="method-start">9640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getsalesprobscore(Honda, City, SV, HO29 : SV MT, 2010.0, New Car Showroom, Yes, 88.97)</span>
+                <span class="method-start">10460 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PriceReco.PriceReco</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, 37202.0, 1.0, WHITE PEARL CRYSTAL SH...)</span>
+                <span class="method-start">11416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, 150238.0, 1.0, GREY METALLIC, Compre...)</span>
+                <span class="method-start">13740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, 104341.0, 1.0, Cherry Red, Expi...)</span>
+                <span class="method-start">15975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, 98658.0, 2.0, Dolphin Grey, Expired, U Trust Facil...)</span>
+                <span class="method-start">18130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, 17735.0, 1.0, Black, Comprehensive, Other Business As...)</span>
+                <span class="method-start">20443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, 27930.0, 1.0, Coral White, Expired, Other Busine...)</span>
+                <span class="method-start">22535 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, 20144.0, 1.0, Artic White, Comprehensive, Ot...)</span>
+                <span class="method-start">24679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, 26771.0, 1.0, Glistening Grey, Expi...)</span>
+                <span class="method-start">26619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, 10527.0, 1.0, SPARKLING BLACK P...)</span>
+                <span class="method-start">28787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, 76049.0, 1.0, AVANT GARDE BRONZE, Expire...)</span>
+                <span class="method-start">31483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getcarprice(Honda, City, SV, HO29 : SV MT, 2010.0, 63047.0, 1.0, Signet Silver, Comprehensive, New Car Showroom,...)</span>
+                <span class="method-start">34226 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LeadScore.LeadScorePurchase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Toyota, INNOVA, 2017.0, DIESEL, New Car Showroom, 15.86)</span>
+                <span class="method-start">36728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18)</span>
+                <span class="method-start">37691 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Tata, Indigo Manza, 2010.0, DIESEL, New Car Showroom, 100.0)</span>
+                <span class="method-start">38504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Mahindra, XUV500, 2013.0, DIESEL, U Trust Facility(Walk in), 76.96)</span>
+                <span class="method-start">39334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(BMW, X1, 2018.0, DIESEL, Other Business Associates, 88.37)</span>
+                <span class="method-start">40151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Hyundai, I-20, 2017.0, PETROL, Other Business Associates, 86.62)</span>
+                <span class="method-start">41065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Maruti Suzuki, Vitara Brezza, 2020.0, DIESEL, Other Business Associates, 77.92)</span>
+                <span class="method-start">41886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Maruti Suzuki, Ciaz, 2019.0, PETROL, Other Business Associates, 94.01)</span>
+                <span class="method-start">42708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Toyota, INNOVA, 2021.0, DIESEL, Other Business Associates, 80.71)</span>
+                <span class="method-start">43622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18)</span>
+                <span class="method-start">44436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getpurchaseprobscore(Honda, City, 2010.0, PETROL, New Car Showroom, 26.58)</span>
+                <span class="method-start">45257 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

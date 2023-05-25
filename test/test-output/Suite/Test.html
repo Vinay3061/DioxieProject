@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 25 12:18:29 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>46 seconds (46658 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, Other Business Associates, No, 100.0</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, 76049.0, 1.0, AVANT GARDE BRONZE, Expired, New Car Showroom, Retail, DIESEL, 4.0, No, 1538648.9</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, New Car Showroom, Yes, 100.0</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Toyota, INNOVA, 2017.0, DIESEL, New Car Showroom, 15.86</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Maruti Suzuki, Ciaz, 2019.0, PETROL, Other Business Associates, 94.01</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Toyota, INNOVA, 2021.0, DIESEL, Other Business Associates, 80.71</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, 37202.0, 1.0, WHITE PEARL CRYSTAL SHINE, Comprehensive, New Car Showroom, Retail, DIESEL, 4.0, Yes, 1961898.3</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, 17735.0, 1.0, Black, Comprehensive, Other Business Associates, Retail, DIESEL, 4.0, No, 2900000.0</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Tata, Indigo Manza, 2010.0, DIESEL, New Car Showroom, 100.0</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, 10527.0, 1.0, SPARKLING BLACK PEARL CS, Expired, Other Business Associates, Retail, DIESEL, 4.0, No, 2436835.1</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Toyota, INNOVA, GRAND LUXURY, XG : INNOVA CRYSTA 2.4 Z (AT), 2021.0, Other Business Associates, No, 82.98</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: BMW, X1, 2018.0, DIESEL, Other Business Associates, 88.37</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Tata, Indigo Manza, Aqua- Quadrajet, W0836 : Aqua Quadrajet, 2010.0, 104341.0, 1.0, Cherry Red, Expired, New Car Showroom, Retail, DIESEL, 4.0, Yes, 150000.0</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Honda, City, SV, HO29 : SV MT, 2010.0, New Car Showroom, Yes, 88.97</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, 98658.0, 2.0, Dolphin Grey, Expired, U Trust Facility(Walk in), Retail, DIESEL, 4.0, Yes, 712305.0</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Honda, City, SV, HO29 : SV MT, 2010.0, 63047.0, 1.0, Signet Silver, Comprehensive, New Car Showroom, Retail, PETROL, 4.0, Yes, 295000.0</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, 27930.0, 1.0, Coral White, Expired, Other Business Associates, Retail, PETROL, 4.0, No, 692451.4</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Hyundai, I-20, 2017.0, PETROL, Other Business Associates, 86.62</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Maruti Suzuki, Vitara Brezza, 2020.0, DIESEL, Other Business Associates, 77.92</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Mahindra, XUV500, W8 4X2, I0530 : W8 4X2, 2013.0, U Trust Facility(Walk in), Yes, 98.42</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Toyota, INNOVA, DELUXE 2, TF : INNOVA CRYSTA 2.8 G, 2016.0, New Car Showroom, No, 30.77</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Hyundai, I-20, 1.2- Asta, Y0510 : 1.2 Asta, 2017.0, Other Business Associates, No, 81.82</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, Other Business Associates, No, 100.0</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Mahindra, XUV500, 2013.0, DIESEL, U Trust Facility(Walk in), 76.96</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Honda, City, 2010.0, PETROL, New Car Showroom, 26.58</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: BMW, X1, sDrive20d, B1202 : sDrive20d, 2018.0, Other Business Associates, No, 96.41</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Maruti Suzuki, Vitara Brezza, VXI, M1288 : MPI, 2020.0, 20144.0, 1.0, Artic White, Comprehensive, Other Business Associates, Retail, DIESEL, 4.0, No, 823000.0</td>
+<td></td>
+<td>1</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Maruti Suzuki, Ciaz, Petrol, M125H : Smart Hybrid Sigma, 2019.0, 26771.0, 1.0, Glistening Grey, Expired, Other Business Associates, Retail, PETROL, 4.0, No, 790000.0</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Toyota, INNOVA, GRAND LUXURY, TU : INNOVA CRYSTA 2.8 Z, 2017.0, New Car Showroom, Yes, 97.22</td>
+<td></td>
+<td>2</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='LeadScore.LeadScoreSales.getsalesprobscore()'><b>getsalesprobscore</b><br>Test class: LeadScore.LeadScoreSales<br>Parameters: Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, New Car Showroom, No, 33.03</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScoreSales@4b213651</td></tr>
+<tr>
+<td title='LeadScore.LeadScorePurchase.getpurchaseprobscore()'><b>getpurchaseprobscore</b><br>Test class: LeadScore.LeadScorePurchase<br>Parameters: Toyota, INNOVA, 2016.0, DIESEL, New Car Showroom, 15.18</td>
+<td></td>
+<td>0</td>
+<td>LeadScore.LeadScorePurchase@432038ec</td></tr>
+<tr>
+<td title='PriceReco.PriceReco.getcarprice()'><b>getcarprice</b><br>Test class: PriceReco.PriceReco<br>Parameters: Toyota, INNOVA, GRAND LUXURY, TD : INNOVA CRYSTA 2.4 V, 2016.0, 150238.0, 1.0, GREY METALLIC, Comprehensive, New Car Showroom, Retail, DIESEL, 4.0, No, 1494051.5</td>
+<td></td>
+<td>2</td>
+<td>PriceReco.PriceReco@36a5cabc</td></tr>
+</table><p>
+</body>
+</html>
